@@ -1,0 +1,10 @@
+{
+    "name": "oudirichi/autoloader",
+    "type": "library",
+    "description": "A simple Autoloader.",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Autoloader\\": "src/"}
+    }
+}
