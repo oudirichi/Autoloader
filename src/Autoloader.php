@@ -33,8 +33,6 @@ class Autoloader
       if(file_exists($filename)) {
         require $filename;
         return;
-      } else {
-        echo $filename;
       }
     }
   }
@@ -66,8 +64,6 @@ class Autoloader
     if(file_exists($filename)) {
       require $filename;
       return;
-    } else {
-      echo $filename . "\n";
     }
   }
 
